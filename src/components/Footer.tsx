@@ -1,11 +1,9 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { useLanguage } from '../contexts/LanguageContext';
 import { Linkedin, Instagram } from 'lucide-react';
 import '../styles/Footer.css';
 
 const Footer: React.FC = () => {
-  const currentYear = new Date().getFullYear();
   const { t } = useLanguage();
 
   const menuItems = [

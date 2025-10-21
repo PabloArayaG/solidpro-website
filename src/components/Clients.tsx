@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from '../hooks/useInView';
 import { useLanguage } from '../contexts/LanguageContext';
