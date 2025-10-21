@@ -160,17 +160,16 @@
     min-height: 100vh;
   }
 
-  .hero-background {
+  .hero-background-image {
     background-position: center;
   }
 
   .hero-background::before {
     background: linear-gradient(
       to bottom,
-      rgba(255, 255, 255, 0.96) 0%,
-      rgba(255, 255, 255, 0.94) 40%,
-      rgba(255, 255, 255, 0.85) 70%,
-      rgba(255, 255, 255, 0.7) 100%
+      rgba(255, 255, 255, 0.97) 0%,
+      rgba(255, 255, 255, 0.95) 50%,
+      rgba(255, 255, 255, 0.8) 100%
     );
   }
 

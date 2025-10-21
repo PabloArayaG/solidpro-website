@@ -25,7 +25,7 @@ const Projects: React.FC = () => {
       icon: <LineChart size={40} />,
       title: t.projects.project3.title,
       description: t.projects.project3.description,
-      imageSrc: '/2.jpeg'
+      imageSrc: 'https://images.unsplash.com/photo-1513828583688-c52646db42da?w=800&auto=format&fit=crop&q=80'
     }
   ];
 
@@ -60,9 +60,6 @@ const Projects: React.FC = () => {
                   alt={project.title}
                   className="project-image"
                 />
-                <div className="project-overlay">
-                  <div className="project-icon">{project.icon}</div>
-                </div>
               </div>
               <div className="project-content">
                 <h3 className="project-title">{project.title}</h3>

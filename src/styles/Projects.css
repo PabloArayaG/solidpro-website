@@ -68,39 +68,7 @@
 }
 
 .project-card:hover .project-image {
-  transform: scale(1.1);
-}
-
-.project-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0.2) 0%,
-    rgba(0, 0, 0, 0.6) 100%
-  );
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  opacity: 0;
-  transition: opacity 0.4s;
-}
-
-.project-card:hover .project-overlay {
-  opacity: 1;
-}
-
-.project-icon {
-  color: white;
-  transform: translateY(20px);
-  transition: transform 0.4s;
-}
-
-.project-card:hover .project-icon {
-  transform: translateY(0);
+  transform: scale(1.05);
 }
 
 .project-content {

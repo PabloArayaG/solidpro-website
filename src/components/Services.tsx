@@ -24,7 +24,7 @@ const Services: React.FC = () => {
     {
       title: t.services.service3.title,
       description: t.services.service3.description,
-      image: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&auto=format&fit=crop&q=80'
+      image: 'https://images.unsplash.com/photo-1513828583688-c52646db42da?w=800&auto=format&fit=crop&q=80'
     },
     {
       title: t.services.service4.title,
