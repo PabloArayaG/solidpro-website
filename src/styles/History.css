@@ -1,0 +1,165 @@
+.history {
+  padding: 8rem 0;
+  background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+}
+
+.history-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  align-items: center;
+}
+
+.history-content {
+  max-width: 600px;
+}
+
+.history-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background: rgba(196, 30, 58, 0.1);
+  color: var(--color-secondary);
+  border-radius: 50px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.history-title {
+  font-size: 3rem;
+  line-height: 1.2;
+  font-weight: 500;
+  color: var(--color-primary);
+  margin-bottom: 2rem;
+  letter-spacing: -1.5px;
+}
+
+.history-text {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: var(--color-text-light);
+  margin-bottom: 1.5rem;
+}
+
+.history-visual {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timeline {
+  position: relative;
+  padding: 2rem 0;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 20px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(to bottom, var(--color-secondary), rgba(196, 30, 58, 0.2));
+}
+
+.timeline-item {
+  position: relative;
+  padding-left: 4rem;
+  margin-bottom: 3rem;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: 12px;
+  top: 0;
+  width: 18px;
+  height: 18px;
+  background: white;
+  border: 3px solid var(--color-secondary);
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.timeline-dot.active {
+  background: var(--color-secondary);
+  box-shadow: 0 0 0 6px rgba(196, 30, 58, 0.2);
+}
+
+.timeline-year {
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--color-secondary);
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.timeline-desc {
+  font-size: 1.1rem;
+  color: var(--color-text-light);
+  font-weight: 500;
+}
+
+@media (max-width: 1024px) {
+  .history {
+    padding: 6rem 0;
+  }
+
+  .history-container {
+    gap: 4rem;
+    padding: 0 2rem;
+  }
+
+  .history-title {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .history {
+    padding: 4rem 0;
+  }
+
+  .history-container {
+    grid-template-columns: 1fr;
+    padding: 0 1.5rem;
+    gap: 3rem;
+  }
+
+  .history-badge {
+    font-size: 0.85rem;
+    padding: 0.625rem 1.25rem;
+  }
+
+  .history-title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .history-text {
+    font-size: 1rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .timeline {
+    padding: 1.5rem 0;
+  }
+
+  .timeline-item {
+    margin-bottom: 2rem;
+    padding-left: 3rem;
+  }
+
+  .timeline-year {
+    font-size: 1.5rem;
+  }
+
+  .timeline-desc {
+    font-size: 1rem;
+  }
+}
+
