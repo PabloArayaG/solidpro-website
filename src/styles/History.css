@@ -104,6 +104,14 @@
   font-weight: 500;
 }
 
+.history-mission-wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 4rem 3rem 0;
+  border-top: 1px solid #e8e8e8;
+  margin-top: 5rem;
+}
+
 @media (max-width: 1024px) {
   .history {
     padding: 6rem 0;
@@ -117,11 +125,21 @@
   .history-title {
     font-size: 2.5rem;
   }
+
+  .history-mission-wrapper {
+    padding: 3rem 2rem 0;
+    margin-top: 4rem;
+  }
 }
 
 @media (max-width: 768px) {
   .history {
     padding: 4rem 0;
+  }
+
+  .history-mission-wrapper {
+    padding: 2.5rem 1.5rem 0;
+    margin-top: 3rem;
   }
 
   .history-container {

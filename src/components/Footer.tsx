@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 import { useLanguage } from '../contexts/LanguageContext';
-import { Linkedin, Instagram } from 'lucide-react';
 import '../styles/Footer.css';
 
 const Footer: React.FC = () => {
@@ -38,32 +37,6 @@ const Footer: React.FC = () => {
                 </motion.a>
               ))}
             </nav>
-          </div>
-
-          <div className="footer-social">
-            <h4 className="footer-social-title">{t.footer.followUs}</h4>
-            <div className="footer-social-links">
-              <motion.a
-                href="https://linkedin.com/company/solidpro"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="footer-social-link"
-                whileHover={{ y: -3 }}
-                aria-label="LinkedIn"
-              >
-                <Linkedin size={20} />
-              </motion.a>
-              <motion.a
-                href="https://instagram.com/solidpro"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="footer-social-link"
-                whileHover={{ y: -3 }}
-                aria-label="Instagram"
-              >
-                <Instagram size={20} />
-              </motion.a>
-            </div>
           </div>
         </div>
 
